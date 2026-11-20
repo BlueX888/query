@@ -1,5 +1,11 @@
 # @tanstack/query-core
 
+## 5.108.3
+
+### Patch Changes
+
+- [#12575](https://github.com/TanStack/query/pull/12575) [`6b849cf`](https://github.com/TanStack/query/commit/6b849cff275dfa1a39d9fd56a47804fbcacdadd0) - Keep a memoized placeholder result when `select` maps it to `undefined`, so a query with `keepPreviousData` that is disabled or still loading no longer loops between `pending` and `success`.
+
 ## 5.108.2
 
 No changes in this release.
